@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Futura-Medium';
+  font-weight: normal;
+  src: url(../fonts/Futura/Futura-Medium-01.ttf) format('truetype')
+}
+
+
+@font-face {
+  font-family: 'Futura-Bold';
+  font-weight: normal;
+  src: url(../fonts/Futura/Futura-Bold-03.ttf) format('truetype')
+}
+
+
+@font-face {
+  font-family: 'PTSans-Bold';
+  font-weight: normal;
+  src: url(../fonts/PTSans/bold.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: 'PTSans-Regular';
+  font-weight: normal;
+  src: url(../fonts/PTSans/regular.ttf) format('truetype')
+}

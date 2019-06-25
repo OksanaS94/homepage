@@ -1,0 +1,235 @@
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    /**/
+    .splaton-image-section .image-block img {
+        position: absolute;
+        bottom: 15%;
+        right: 10%;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	/**/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+    .game-info-section .container .mef .response-mef {
+        display: flex;
+        justify-content: center;
+    }
+
+    .game-info-section .container .mef .mef-img {
+        margin: 100px 0px 20px 0px;
+    }
+
+    .first-section .mobile-response  {
+        margin-top: 30%;
+    }
+
+    .wrapper-top-line .top-line {
+        height: 70px;
+    }
+
+    .wrapper-top-line .progress-bar {
+        top: 70px;
+    }
+
+    #logo {
+        left: 0;
+        top: 0;
+        z-index: 999;
+        padding: 25px 0 20px 0;
+        width: 100%;
+        background: #51546e;
+    }
+
+    #logo img {
+        margin-left: 5%;
+        margin-top: 15px;
+    }
+
+	.nav-btn {
+        display: block;
+    } 
+
+    .nav-wrap nav {
+        transition: transform .2s ease-in-out;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        padding-left: 50px;
+        z-index: 888;
+        top: 0;
+        left: 0;
+        touch-action: none;
+        transform: scaleX(0);
+    }
+
+    .nav-wrap nav.show-menu {
+        transform: scaleX(1);
+    }
+
+    .nav-wrap nav ul {
+        display: flex;
+        flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+		margin-bottom: 0;
+        padding-left: 0;
+        height: 100vh;
+    }
+    
+    .nav-wrap nav .container {
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+        margin-right: 0!important;
+        margin-left: 0!important;
+    }
+
+    .nav-wrap nav ul li a {
+        opacity: 0.8;
+        font-family: PTSans;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .top-line #logo:after {
+        bottom: 0;
+    }
+
+    .type-players-section .col-sm-12 {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .m-top-sm {
+        margin-top: 20px;
+    }
+
+    .top-line #logo {
+        width: 5%;
+    }
+
+    .top-line #logo a img {
+        margin-top: 1px!important;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+    .header .content-wrap h1 {
+        font-size: 50px;
+    }
+
+    .header .content-wrap p {
+        font-size: 18px;
+    }
+
+    .eve-btn1 {
+        display: none;
+    }
+
+    .eve-btn2 {
+        display: inline-block!important;
+    }
+
+    .eve-btn2  a {
+        color: #fff;
+    }
+
+    .first-section .description:nth-child(4) {
+        display: none;
+    }
+
+    .first-section .center-img {
+        display: none;
+    }
+
+    .first-section .wrapper-title img {
+        display: block;
+    }
+
+    .first-section .wrapper-title .title:after, .first-section .wrapper-title .title:before {
+        height: 100%;
+    }
+
+    .game-info-section .container .mef .mef-img {
+        margin: 100px 0px 20px 0px;;
+    }
+
+    .play-game-section .block-img {
+        margin-bottom: 0;
+    }
+
+    .play-game-section .block-img img {
+        display: none;
+    }
+
+    .play-game-section .block-img .info {
+        width: 100%;
+        padding-left: 90px;
+    }
+
+    .play-game-section .block-img:nth-child(1) .info {
+        background-image: url('../images/leadership.png');
+        background-position: 20px 25px;
+        background-repeat: no-repeat;
+    }
+
+    .play-game-section .block-img:nth-child(2) .info {
+        background-image: url('../images/woman.png');
+        background-position: 35px 23px;
+        background-repeat: no-repeat;
+    }
+
+    .slide-show-section {
+        padding: 0;
+    }
+}
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    /**/
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    /**/
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 769px) {
+    /**/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	/**/
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    /**/
+    .splaton-image-section .image-block div p {
+        margin-bottom: 7%;
+        margin-right: 25%;
+    }
+}
